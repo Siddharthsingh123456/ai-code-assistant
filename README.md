@@ -1,30 +1,17 @@
 # AI Code Assistant
 
-Explain, refactor, debug, optimize, or generate code with a focused developer workspace.
+Understand, generate, debug and improve code with an AI pair programmer.
 
-## Features
-- Code editor
-- Explain / Fix / Refactor
-- Language controls
-- Output console
+## Stack
+React + Vite · Node.js · Express · MongoDB/Mongoose · OpenAI-compatible API · Vercel
 
-## Tech Stack
-- React 18
-- Vite 5
-- Responsive CSS
-- Vercel-ready configuration
-
-## Local development
+## Setup
+```bash
 npm install
 npm run dev
+```
 
-## Production build
-npm run build
-npm run preview
+Configure `OPENAI_API_KEY` and optionally `MONGODB_URI`. Never commit secrets.
 
-## AI provider integration
-The client contains no provider secrets. Connect OpenAI, Groq, Ollama, or another provider through a server-side/API layer and environment variables.
-
-## Vercel
-Build command: npm run build
-Output directory: dist
+## Deployment
+Import this repository into Vercel. The included Vercel configuration builds the React app and the `/api` serverless endpoint.
