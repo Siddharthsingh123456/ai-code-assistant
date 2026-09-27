@@ -1,17 +1,1 @@
-# AI Code Assistant
-
-Understand, generate, debug and improve code with an AI pair programmer.
-
-## Stack
-React + Vite · Node.js · Express · MongoDB/Mongoose · OpenAI-compatible API · Vercel
-
-## Setup
-```bash
-npm install
-npm run dev
-```
-
-Configure `OPENAI_API_KEY` and optionally `MONGODB_URI`. Never commit secrets.
-
-## Deployment
-Import this repository into Vercel. The included Vercel configuration builds the React app and the `/api` serverless endpoint.
+# AI Code Assistant\n\nMERN + AI engineering copilot for code review, explanation, optimization and test generation.\n\n## Features\n- Multiple programming languages\n- Explain, Review, Optimize and Tests modes\n- Server-side AI integration\n- MongoDB persistence for reviews\n- Responsive code-editor interface\n- Node 24 + Vercel ready\n\n## Environment\nOPENAI_API_KEY=\nOPENAI_MODEL=gpt-4o-mini\nMONGODB_URI=\n\nImport this repository into Vercel, add the variables and deploy.
