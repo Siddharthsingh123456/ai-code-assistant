@@ -47,3 +47,11 @@ body:after{background:linear-gradient(90deg,#4f7cff0b 1px,transparent 1px),linea
 .nav nav button:hover{background:#0e1d31!important;color:#72eaff!important}
 .userChip{font-family:"JetBrains Mono"!important;border-radius:4px!important}.primary{font-family:"JetBrains Mono"!important;border-radius:4px!important}
 
+
+
+/* NAV FINAL — CODE: terminal prompt tabs */
+.nav nav{display:flex!important;gap:0!important;padding:0!important;border:1px solid #4d9eff44!important;border-radius:5px!important;background:#03070c!important}
+.nav nav button{position:relative!important;padding:8px 13px!important;border:0!important;border-right:1px solid #4d9eff25!important;border-radius:0!important;background:transparent!important;font-family:"JetBrains Mono"!important;color:#7185a0!important;font-size:9px!important}
+.nav nav button:last-child{border-right:0}
+.nav nav button:before{content:"";display:inline-block;width:5px;height:5px;margin-right:7px;border-radius:50%;background:#2f75ff;box-shadow:0 0 7px #2f75ff}
+.nav nav button:hover{background:#0d1a2b!important;color:#78eaff!important;transform:none!important}
