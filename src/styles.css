@@ -68,3 +68,15 @@ body:after{background:linear-gradient(90deg,#4f7cff0b 1px,transparent 1px),linea
 .fields textarea{min-height:470px!important}.result pre{font-family:"JetBrains Mono"!important;color:#9effd5!important;font-size:11px!important;line-height:1.8!important}
 .result>div>span{font-family:"JetBrains Mono"!important;color:#4d9eff!important}
 .primary{font-family:"JetBrains Mono"!important;background:linear-gradient(90deg,#3c72ff,#4edcff)!important;border-radius:4px!important}
+
+
+/* FINAL SYSTEM — CODE / TERMINAL CTA + FORMS + FOOTER */
+button.primary{border:1px solid #65dfff!important;border-radius:4px!important;background:linear-gradient(90deg,#2f65ff,#42cfff)!important;color:#03101b!important;font:800 9px "JetBrains Mono"!important;box-shadow:0 0 24px #2f75ff2d!important;transition:.2s!important}
+button.primary:before{content:"> ";color:#071827!important}
+button.primary:hover{transform:translateY(-2px)!important;box-shadow:0 0 32px #2f75ff5c!important}
+input,textarea,select{border:1px solid #3c78b955!important;border-radius:4px!important;background:#02070d!important;color:#bde5ff!important;font-family:"JetBrains Mono"!important;caret-color:#65e7ff!important}
+input:focus,textarea:focus,select:focus{outline:none!important;border-color:#65dfff!important;box-shadow:0 0 0 2px #2f75ff16,0 0 22px #2f75ff18!important}
+.passwordField{display:flex!important;gap:5px!important}.passwordToggle{border:1px solid #3c78b955!important;border-radius:3px!important;background:#07111d!important;color:#72eaff!important;font-family:"JetBrains Mono"!important}
+footer{margin:55px 14px 0!important;padding:13px 16px!important;display:grid!important;grid-template-columns:auto 1fr auto!important;gap:16px!important;align-items:center!important;border:1px solid #2e6cb855!important;border-radius:5px!important;background:#03080e!important;font-family:"JetBrains Mono"!important}
+footer:before{content:"root@ai-os:~$";color:#4d9eff!important;font:700 8px "JetBrains Mono"!important}
+footer b{font:700 10px "JetBrains Mono"!important;color:#79eaff!important}footer span{font:500 7px "JetBrains Mono"!important;color:#607d99!important}footer span:last-child{color:#74ffd2!important}
