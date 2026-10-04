@@ -36,3 +36,14 @@ body:after{background:linear-gradient(90deg,#4f7cff0b 1px,transparent 1px),linea
 .orb:after{content:"$ ai.assist()";position:absolute;left:20px;bottom:18px;color:#75ffd3;font:500 13px "JetBrains Mono";border:0!important;transform:none!important;opacity:1!important}
 @keyframes terminalFloat{0%,100%{transform:translateY(0) rotateX(0)}50%{transform:translateY(-11px) rotateX(4deg)}}@keyframes terminalBack{50%{transform:translateY(-50%) translateX(-8px) skewY(3deg)}}
 .cards article,.featureGrid article,.pricing article,.tool,.result{border-radius:8px!important}
+
+
+/* NAV V3 — TERMINAL COMMAND LINE */
+.nav{height:62px!important;margin:12px 14px 0!important;border:1px solid #4d9eff66!important;border-radius:8px!important;background:#070d16f5!important;box-shadow:0 0 35px #2875ff1c!important}
+.logo span{border-radius:5px!important}
+.nav nav{border:0!important;background:transparent!important;padding:0!important;gap:0!important}
+.nav nav button{font-family:"JetBrains Mono"!important;border-radius:4px!important;border-left:1px solid #4d9eff20!important;font-size:9px!important}
+.nav nav button:before{content:"~/";color:#4d9eff!important;margin-right:3px}
+.nav nav button:hover{background:#0e1d31!important;color:#72eaff!important}
+.userChip{font-family:"JetBrains Mono"!important;border-radius:4px!important}.primary{font-family:"JetBrains Mono"!important;border-radius:4px!important}
+
