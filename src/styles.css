@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;min-height:100vh;font-family:Inter,system-ui,sans-serif;line-height:1.55;overflow-x:hidden;background:#05070c;color:#f4f7ff}
 body:before{content:"";position:fixed;inset:-20%;z-index:-5;pointer-events:none;background:radial-gradient(circle at 15% 20%,#536dff30,transparent 24%),radial-gradient(circle at 85% 18%,#00d5ff2c,transparent 25%),radial-gradient(circle at 50% 88%,#7a4dff24,transparent 27%);filter:blur(25px);animation:drift 18s ease-in-out infinite alternate}
@@ -21,3 +22,18 @@ button,input,textarea,select{font:inherit}button{cursor:pointer;transition:.25s 
 footer{max-width:1240px;margin:auto;padding:25px 5%;display:flex;justify-content:space-between;gap:16px;border-top:1px solid #ffffff10;color:#647188;font-size:8px}footer b{font-family:"Space Grotesk";color:#aeb8c9}
 @media(max-width:900px){.nav nav{display:none}.mobileMenu{display:block;margin-left:auto}.nav nav.navOpen{display:flex;position:absolute;left:14px;right:14px;top:72px;flex-direction:column;padding:8px;background:#070b12f5;backdrop-filter:blur(18px)}.nav nav button{text-align:left}.hero{grid-template-columns:1fr;padding-top:62px}.heroVisual{height:300px}.stats{grid-template-columns:1fr 1fr;margin:0 5%}.cards,.pricing{grid-template-columns:1fr}.featureGrid{grid-template-columns:1fr 1fr}.workGrid{grid-template-columns:1fr}}
 @media(max-width:560px){.nav{height:70px;padding:0 14px}.logo strong{font-size:12px}.logo span{width:34px;height:34px}.navActions .userChip,.navActions .navCta{display:none}.hero{padding:50px 18px 40px;min-height:auto}.hero h1{font-size:44px}.heroBtns{flex-direction:column}.heroVisual{height:235px}.orb{width:170px;height:170px;font-size:42px}.glow{width:250px;height:250px}.stats{grid-template-columns:1fr;margin:0 16px}.stats div{border-right:0;border-bottom:1px solid #ffffff10}.stats div:last-child{border-bottom:0}.section,.content{padding:78px 18px}.section h2,.content h1{font-size:34px}.featureGrid{grid-template-columns:1fr}.auth{padding:24px 15px;min-height:calc(100vh - 70px)}.authCard{padding:23px}.workspace{padding:38px 14px 60px}.workspaceHead{flex-direction:column;align-items:flex-start}footer{flex-direction:column;padding:22px 18px}}
+
+
+/* V2 — CYBER TERMINAL / CODE */
+body{font-family:"Inter",sans-serif;background:#05070c}
+body:before{background:radial-gradient(circle at 80% 20%,#3b6dff22,transparent 22%),radial-gradient(circle at 20% 75%,#00e5ff1a,transparent 25%);filter:blur(26px)}
+body:after{background:linear-gradient(90deg,#4f7cff0b 1px,transparent 1px),linear-gradient(#4f7cff0b 1px,transparent 1px);background-size:24px 24px;opacity:.55}
+.logo,.nav nav button,.primary,.hero h1,.section h2,.content h1,.workspaceHead h1,.authCard h1,.tool h2,.cards b,.featureGrid b,.pricing b{font-family:"JetBrains Mono",monospace!important}
+.hero h1{font-size:clamp(42px,5.7vw,78px)!important;line-height:1.02!important;letter-spacing:-.07em!important}
+.heroVisual:before,.glow{display:none!important}
+.heroVisual:after{content:"</>";position:absolute;width:330px;height:260px;right:4%;top:50%;transform:translateY(-50%) skewY(-3deg);display:grid;place-items:center;font:700 88px "JetBrains Mono";color:#73e9ff;background:linear-gradient(145deg,#0e1a30,#071018);border:1px solid #4d9eff55;box-shadow:0 30px 90px #2d75ff44,inset 0 0 45px #1b64ff14;clip-path:polygon(0 8%,92% 0,100% 92%,8% 100%);z-index:-1;animation:terminalBack 5s ease-in-out infinite}
+.orb{width:275px!important;height:210px!important;border-radius:12px!important;background:#0b111b!important;border:1px solid #4d9eff99!important;box-shadow:0 25px 80px #2f74ff55!important;color:#6dffcf!important;font:700 34px "JetBrains Mono"!important;transform:none!important;animation:terminalFloat 5s ease-in-out infinite!important;overflow:visible!important}
+.orb:before{content:"_ _ _";position:absolute;left:18px;right:18px;top:16px;height:22px;border-bottom:1px solid #4d9eff44;color:#4d9eff;font:700 11px "JetBrains Mono";letter-spacing:5px;border-radius:0!important;transform:none!important}
+.orb:after{content:"$ ai.assist()";position:absolute;left:20px;bottom:18px;color:#75ffd3;font:500 13px "JetBrains Mono";border:0!important;transform:none!important;opacity:1!important}
+@keyframes terminalFloat{0%,100%{transform:translateY(0) rotateX(0)}50%{transform:translateY(-11px) rotateX(4deg)}}@keyframes terminalBack{50%{transform:translateY(-50%) translateX(-8px) skewY(3deg)}}
+.cards article,.featureGrid article,.pricing article,.tool,.result{border-radius:8px!important}
