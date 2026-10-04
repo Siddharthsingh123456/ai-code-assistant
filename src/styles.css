@@ -55,3 +55,16 @@ body:after{background:linear-gradient(90deg,#4f7cff0b 1px,transparent 1px),linea
 .nav nav button:last-child{border-right:0}
 .nav nav button:before{content:"";display:inline-block;width:5px;height:5px;margin-right:7px;border-radius:50%;background:#2f75ff;box-shadow:0 0 7px #2f75ff}
 .nav nav button:hover{background:#0d1a2b!important;color:#78eaff!important;transform:none!important}
+
+
+/* POST-LOGIN V4 — CODE IDE */
+.workspace{min-height:calc(100vh - 62px);padding:24px 18px 65px;background:#04070c}
+.workspaceHead{max-width:1600px!important;margin-bottom:12px!important;padding:12px 16px!important;border:1px solid #4d9eff44!important;border-radius:6px!important;background:#07101bf2!important}
+.workspaceHead h1{font-family:"JetBrains Mono"!important;font-size:30px!important}.workspaceHead p{font-family:"JetBrains Mono"!important;color:#6d86a4!important}
+.workGrid{max-width:1600px!important;grid-template-columns:430px minmax(0,1fr)!important;gap:10px!important}
+.tool,.result{border:1px solid #4d9eff44!important;border-radius:6px!important;background:#07101a!important;box-shadow:0 18px 50px #0009,inset 0 0 35px #1b64ff08!important}
+.tool{padding:18px!important}.tool h2{font-family:"JetBrains Mono"!important;font-size:18px!important;color:#7feaff!important}
+.fields input,.fields textarea,.fields select{border:1px solid #2e67a944!important;border-radius:4px!important;background:#03070c!important;font-family:"JetBrains Mono"!important;color:#b9d9ff!important}
+.fields textarea{min-height:470px!important}.result pre{font-family:"JetBrains Mono"!important;color:#9effd5!important;font-size:11px!important;line-height:1.8!important}
+.result>div>span{font-family:"JetBrains Mono"!important;color:#4d9eff!important}
+.primary{font-family:"JetBrains Mono"!important;background:linear-gradient(90deg,#3c72ff,#4edcff)!important;border-radius:4px!important}
